@@ -6,4 +6,4 @@ COPY . /MyFirstDemo
 
 RUN  apt-get update &&  apt-get install -y python3 python3-pip
 
-CMD ["python","App.py"]
+CMD ["python3" , "App.py"]
